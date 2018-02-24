@@ -21,7 +21,7 @@
 				  <a class="foot-link" href="#">Karir</a>
 				  <a class="foot-link" href="#">Investor</a>
 				  <a class="foot-link" href="#">FAQ</a>
-				  <a class="foot-link" href="#">Syarat & Ketentuan</a>
+				  <a class="foot-link" href="#">Syarat &amp; Ketentuan</a>
 				  <a class="foot-link" href="#">Kebijakan Privasi</a>
 				</div>
 			</div>

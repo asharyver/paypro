@@ -2812,6 +2812,8 @@ button.btn1 {
     transition: 0.5s all;
     float: right;
     width: 12%;
+    border: none;
+    border-bottom: 1px solid transparent;
 }
 .btn1 :hover{
 	color: #F59D15;
