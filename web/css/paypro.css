@@ -1,0 +1,56 @@
+/* Contact Us */
+.contact_us {
+	background: #8a2785;
+	position: relative
+}
+.contact_us .col {
+	/* background: #8a2785; */
+	display: block;
+	float: none;
+}
+.contact_us .form-control {
+	margin-bottom: 1.5em;
+	/* padding: 1em; */
+	height: 3.5em;
+	border-radius: 10px;
+}
+.contact_us textarea.form-control {
+	height: 150px;
+	padding-top: .8em
+}
+.contact_us .btn {
+	background: #530050;
+	border: none;
+	color: #fff;
+	border-radius: 1.5em;
+	padding: 10px;
+	font-size: 1em;
+	/* font-weight: bold */
+}
+.contact_us .customer_service {
+	color: #fff;
+	text-align: justify;
+	margin-top: 3em;
+	width: 225px;
+}
+.contact_us .customer_service .heading {
+	font-size: 1.5em;
+	font-weight: bold;
+	border-bottom: 1px solid #fff;
+	padding-bottom: .5em;
+	margin-bottom: .5em;
+}
+.contact_us .customer_service .heading .no {
+	letter-spacing: 4px;
+}
+.contact_us .customer_service .name {
+	font-size: 1.1em;
+}
+.contact_us .customer_service .loc {
+	font-size: .8em;
+}
+@media (max-width: 768px) {
+	.contact_us .col-md-6 {
+		padding: 0;
+	}
+}
