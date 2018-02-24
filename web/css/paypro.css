@@ -54,3 +54,43 @@
 		padding: 0;
 	}
 }
+
+/* Navbar */
+.nav .language-btn img {
+	width: 30px;
+}
+.nav .language-btn .dropdown {
+	border-radius: 10px;
+}
+.nav .language-btn .dropdown-item {
+	padding-bottom: 10px;
+}
+.nav .download-paypro > a {
+	border: 1px solid #fff;
+	color: #fff;
+	border-radius: 1em;
+	padding: 10px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	text-transform: none;
+}
+.nav .download-paypro > a:hover {
+	background: #fff !important;
+	color: #8a2785 !important;
+}
+.nav .download-paypro .dropdown-menu {
+	left: -5em;
+	width: 150px;
+}
+.nav .download-paypro .dropdown-item {
+	padding: .5em 1em;
+}
+.nav .download-paypro .dropdown-item a,
+.nav .language-btn .dropdown-item a {
+	color: #8a2785;
+	background: #fff !important;
+}
+.nav .download-paypro .dropdown-item a:hover,
+.nav .language-btn .dropdown-item a:hover {
+	color: #f59d15 !important
+}
