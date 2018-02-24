@@ -62,8 +62,8 @@ html,body {
 .nav .language-btn img {
 	width: 30px;
 }
-.nav .language-btn .dropdown {
-	border-radius: 10px;
+.nav .language-btn .dropdown-menu {
+	border-radius: 10px !important;
 }
 .nav .language-btn .dropdown-item {
 	padding-bottom: 10px;
