@@ -94,3 +94,21 @@
 .nav .language-btn .dropdown-item a:hover {
 	color: #f59d15 !important
 }
+
+.medsos a {
+	background: #fff;
+	color: #8a2785;
+	height: 50px;
+	width: 50px;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.5em;
+	padding-top: 7px;
+	border-radius: 50%;
+}
+.medsos a + a {
+	margin-left: .5em;
+}
+/* .medsos a:hover {
+	color: #f59d15;
+} */

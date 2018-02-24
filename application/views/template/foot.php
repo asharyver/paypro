@@ -27,10 +27,14 @@
 			</div>
 			<div class="col-md-4 col-sm-4">
 			  <div class="medsos">
-				  <a href="#"><img src="<?=base_url('web/images/sosmed/fb.png') ;?>"></a>
+			  	<a href="#"><i class="facebook fa fa-facebook"></i></a>
+			  	<a href="#"><i class="twitter fa fa-twitter"></i></a>
+			  	<a href="#"><i class="instagram fa fa-instagram"></i></a>
+			  	<a href="#"><i class="youtube-play fa fa-youtube-play"></i></a>
+				<!--   <a href="#"><img src="<?=base_url('web/images/sosmed/fb.png') ;?>"></a>
 				  <a href="#"><img src="<?=base_url('web/images/sosmed/twiter.png') ;?>"></a>
 				  <a href="#"><img src="<?=base_url('web/images/sosmed/ig.png') ;?>"></a>
-				  <a href="#"><img src="<?=base_url('web/images/sosmed/youtube.png') ;?>"></a>
+				  <a href="#"><img src="<?=base_url('web/images/sosmed/youtube.png') ;?>"></a> -->
 			  </div>
 			</div>
 		</nav>
