@@ -18,7 +18,7 @@
 				<div class="navbar-left">
 				  <a class="foot-link" href="#" >Cara kerja</a>
 				  <a class="foot-link" href="#">Blog</a>
-				  <a class="foot-link" href="#">Karir</a>
+				  <a class="foot-link" href="<?php echo base_url('Karir')?>">Karir</a>
 				  <a class="foot-link" href="#">Investor</a>
 				  <a class="foot-link" href="#">FAQ</a>
 				  <a class="foot-link" href="#">Syarat &amp; Ketentuan</a>
@@ -30,7 +30,7 @@
 			  	<a href="#"><i class="facebook fa fa-facebook"></i></a>
 			  	<a href="#"><i class="twitter fa fa-twitter"></i></a>
 			  	<a href="#"><i class="instagram fa fa-instagram"></i></a>
-			  	<a href="#"><i class="youtube-play fa fa-youtube-play"></i></a>
+			  	<a href="#"><i class="youtube-playy fa fa-youtube-playy"></i></a>
 				<!--   <a href="#"><img src="<?=base_url('web/images/sosmed/fb.png') ;?>"></a>
 				  <a href="#"><img src="<?=base_url('web/images/sosmed/twiter.png') ;?>"></a>
 				  <a href="#"><img src="<?=base_url('web/images/sosmed/ig.png') ;?>"></a>

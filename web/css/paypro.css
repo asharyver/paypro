@@ -76,14 +76,16 @@ html,body {
 	margin-top: 1em;
 	margin-bottom: 1em;
 	text-transform: none;
+	border-color: #fff !important;
 }
 .nav .download-paypro > a:hover {
 	background: #fff !important;
 	color: #f59d15 !important;
 }
 .nav .download-paypro .dropdown-menu {
-	left: -5em;
+	left: 3em;
 	width: 150px;
+	border-radius: 10px;
 }
 .nav .download-paypro .dropdown-item {
 	padding: .5em 1em;
@@ -115,3 +117,84 @@ html,body {
 /* .medsos a:hover {
 	color: #f59d15;
 } */
+
+.btn-xl:hover {
+	color: #f59d15 !important
+}
+
+.hows .resp-tabs-list .icon {
+	display: block;
+	text-align: center;
+	margin: auto;
+	background: url("../images/tabs/sprite.png") no-repeat;
+	width: 75px;
+	height: 55px;
+}
+.hows .resp-tabs-list .daftar {
+	background-position: 0 -55px;
+}
+.hows .resp-tabs-list .topup {
+	background-position: -300px -55px;
+}
+.hows .resp-tabs-list .transfer {
+	background-position: -150px -55px;
+}
+.hows .resp-tabs-list .aqr {
+	background-position: -75px -55px;
+}
+.hows .resp-tabs-list .tarik {
+	background-position: -225px -55px;
+}
+
+.hows .resp-tab-active .daftar {
+	background-position: 0 0px;
+}
+.hows .resp-tab-active .topup {
+	background-position: -300px 0;
+}
+.hows .resp-tab-active .transfer {
+	background-position: -150px 0;
+}
+.hows .resp-tab-active .aqr {
+	background-position: -75px 0;
+}
+.hows .resp-tab-active .tarik {
+	background-position: -225px 0;
+}
+.hows .resp-tabs-list span {
+	display: block;
+	color: #cccccc;
+	margin-top: 10px;
+}
+.hows .resp-tab-active {
+	background: transparent;
+}
+.hows .resp-tab-active span {
+	color: #8a2785 !important;
+}
+.hows .resp-tab-content {
+	border: none;
+}
+.hows .resp-tabs-list li {
+	position: relative;
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+.hows .tab {
+	position: relative;
+	min-height: 800px;
+}
+.hows .carousel {
+	position: relative;
+}
+.hows .phone img {
+	position: absolute;
+	bottom: -5em;
+	left: 4.4em;
+}
+.hows .tab .carousel-inner img{
+	width: 241px;
+	height: 429px;
+	margin-left: 7em;
+	margin-top: 4em;
+}

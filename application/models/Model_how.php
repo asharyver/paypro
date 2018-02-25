@@ -21,7 +21,7 @@ class Model_how extends CI_Model {
 	function tampil_cara(){
 		$this->db->SELECT('*');
 		$this->db->FROM($this->table);
-		$this->db->WHERE('bagian=', 'cara');
+		$this->db->WHERE('bagian=', 'Daftar');
 		$this->db->ORDER_BY('id_how', 'DESC');
 		$query=$this->db->get();
 		return $query->result();
