@@ -1,6 +1,6 @@
 <?php
 // Header
-$lang['About Us']        = 'About Us';
+$lang['About PayPro']    = 'Tentang PayPro';
 $lang['How It Works']    = 'Bagaimana Ini Bekerja';
 $lang['Promo']           = 'Promo';
 $lang['Merchant']        = 'Pedagang';

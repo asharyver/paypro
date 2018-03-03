@@ -10,6 +10,7 @@ Class Abouts extends CI_Controller{
     }
         
     function index(){
+        $data['navbar_page'] = 'Abouts';
         $data['judul']    = 'Page Home';
         $data['atas']	  = $this->model_about->tampil_atas();
 		$data['mid']	  = $this->model_about->tampil_mid();

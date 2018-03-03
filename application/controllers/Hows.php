@@ -32,6 +32,7 @@ Class Hows extends CI_Controller{
 		}
 		$data['indicators'] = $indicators;
 		$data['content']	= $text; */
+		$data['navbar_page'] = 'Hows';
         $data['hows_daftar']	  = $this->model_how->tampil_cara('daftar');
         $this->template->utama('web/view_how',$data);
        }

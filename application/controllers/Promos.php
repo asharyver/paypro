@@ -10,6 +10,7 @@ Class Promos extends CI_Controller{
     }
         
     function index(){
+        $isi['navbar_page'] = 'Promos';
         $isi['judul']    = 'Page Promo';
         $isi['promo']	= $this->model_promo->tampilkan();
         $this->template->utama('web/view_promo',$isi);

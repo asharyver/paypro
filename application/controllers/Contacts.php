@@ -10,6 +10,7 @@ Class Contacts extends CI_Controller{
     }
         
     function index(){
+        $data['navbar_page'] = 'Contacts';
         $data['judul']    = 'Page Contact Us';
         $this->template->utama('web/view_contact',$data);
      }

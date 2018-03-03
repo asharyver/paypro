@@ -10,6 +10,7 @@ Class Merchants extends CI_Controller{
 	}
 
 	function index(){
+		$isi['navbar_page'] = 'Merchants';
 		$isi['judul']		 = 'Data List Merchant';
 		$isi['merchant']	 = $this->model_merchant->tampilkan();
 		$this->template->utama('web/view_merchant', $isi);
