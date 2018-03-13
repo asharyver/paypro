@@ -16,10 +16,12 @@ class Model_promo extends CI_Model {
 		return $this->db->get($this->table);
 	}
 			
-    function tampilkan(){
+    function tampilkan($limit = 3, $offset = 0){
 		$this->db->SELECT('*');
 		$this->db->FROM($this->table);
 		$this->db->ORDER_BY('id_promo', 'DESC');
+		$this->db->limit($limit);
+		$this->db->offset($offset);
        	$query=$this->db->get();
        return $query->result();
     }

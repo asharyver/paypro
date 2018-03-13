@@ -7,7 +7,7 @@
 			<p class="standar"><?php _t('Register your email to get the best deals from us');?></p>
 			<form action="#" method="post">
 				<input type="email" name="email" placeholder="example@mail.com" required="">
-				<button class="btn1">kirim <i class="fa fa-chevron-right fa-lg "></i></button>
+				<button class="btn1"><span class="hidden-xs">kirim</span> <i class="fa fa-chevron-right fa-lg "></i></button>
 				<div class="clearfix"> </div>
 			</form>
 		</div>

@@ -1,3 +1,22 @@
+<?php if( ! empty($pageType) && $pageType == 'blogs'):?>
+<ul class="nav navbar-nav blog-category">
+	<li><a href="<?php echo base_url();?>">Home</a></li>
+	<?php foreach ($category as $c):?>
+		<?php if (empty($c['parent'])):?>
+			<li><a href="<?php echo base_url('blogs/category/'.$c['link']);?>"><?php echo $c['name'];?></a></li>
+		<?php else:?>
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><?php echo $c['name'];?> <i class="fa fa-chevron-down"></i></a>
+				<ul class="dropdown-menu">
+					<?php foreach ($c['parent'] as $p):?>
+						<li><a href="<?php echo base_url('blogs/category/'.$p['link']);?>"><?php echo $p['name'];?></a></li>
+					<?php endforeach;?>
+				</ul>
+			</li>
+		<?php endif;?>
+	<?php endforeach;?>
+</ul>
+<?php else:?>
 <ul class="nav navbar-nav">
 	<?php if (empty($pageType) or $pageType !== 'karir'): ?>
 	<li<?php echo $navbar_page == 'Abouts' ? ' class="active"' : ''?>><a href="<?=site_url('Abouts'); ?>" class="effect-3"><?php _t('About PayPro')?></a></li>
@@ -21,3 +40,4 @@
 		</ul>
 	</li>
 </ul>
+<?php endif;?>

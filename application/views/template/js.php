@@ -1,7 +1,7 @@
 <!-- js -->
-<script type="text/javascript" src="<?=base_url(); ?>web/js/jquery-2.1.4.min.js"></script>
 <!-- //js -->
 <script src="<?=base_url(); ?>web/js/modernizr-2.6.2.min.js"></script>
+<script src="<?php echo base_url('assets/js/jquery.autocomplete.js')?>"></script>
 <!-- //nav -->
 <script type="text/javascript" src="<?=base_url(); ?>web/js/bootstrap-3.1.1.min.js"></script>
 <script type="text/javascript" src="<?=base_url(); ?>web/js/bootstrap-select.min.js"></script>
@@ -10,10 +10,7 @@
 <!--script src="<?=base_url(); ?>web/js/owl.carousel.js"></script-->
 <script>
 	jQuery(document).ready(function ($) {
-		$('.carousel').carousel({
-			interval: 3000,
-			wrap: true
-		});
+		$('.carousel').carousel();
 
         // $('#carousel-text').html($('#slide-content-0').html());
 
